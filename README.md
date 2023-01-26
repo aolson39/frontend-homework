@@ -1,31 +1,26 @@
-# Front End Assignment
+# Weather App
 
-This is your chance to show off your hands on skills to us. You will develop a small app and present it to us. Just make sure that it runs and we can actually use it beforehand.
-It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed.
+This app was created using the Open Weather free api avaialble here: https://openweathermap.org/api. 
 
-## The assignment
+This app provides a user interface to enter in zip codes and see the current weather forecast for the area such as current temperature, high/low for the day and a weather description. 
 
-+ Solution should be responsive
-+ Use the [Open Weather API](https://openweathermap.org/api) with the default location set to New York, NY, and allow the user to change the location by zip code
-+ Show the "current" conditions for New York:
-  + Location (ie. New York, NY, USA)
-  + Current weather description (ie. sunny)
-  + Current temperature
-  + Today's high temperature
-  + Today's low temperature
-+ Allow the user to toggle more data in the current conditions area:
-    + Wind Speed
-    + Humidity
-    + Pressure
-    + Sunrise/Sunset Time
-+ Show the 7 Day forecast
+Users can also toggle additional weather information such as Wind Speed, Humidity, Pressure, Sunrise and Sunset times.
 
-When in doubt, just keep an assumptions log and move on. We value working software and decision making skills.
+The default location is New York City, NY, US which can be changed in the search bar.
 
-## Requirements
+OpenWeather API requires payment info for 7 day forecast so it has been omitted from this project.
 
-We like React here at Skyward, but feel free to use any framework. Also, make sure your application runs and include instructions in Readme on how to run it! 
+## Getting Started with Create React App
 
-## Submission
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To complete your homework, please fork this repo and commit your work to your fork. When you are ready for us to look at it, give us access to your fork so we can review and run it.
+## Running the app
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
